@@ -7,7 +7,7 @@ const Select = ({launches,setLaunches,setSelect,}) => {
             <select onChange={(e) => {
                 setSelect(e.target.value)
             }}>
-                {some.map(el => <option key={el} value={el}> {el} </option>)}
+
             </select>
         </div>
         )
