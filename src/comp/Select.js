@@ -7,6 +7,7 @@ const Select = ({launches,setLaunches,setSelect,}) => {
             <select onChange={(e) => {
                 setSelect(e.target.value)
             }}>
+            <options>Every</options>    
             <options>20</options>
             <options>30</options>
             <options>50</options>
